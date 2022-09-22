@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+   
+    <title>My youtube page</title>
+</head>
+<body>
+    <div id="blocResearch">
+        <input placeholder="Research" id="research" type="text" oninput="filtrer()"> 
+            <!-- <button id="btnSearch" onclick="filtrer()">Go</button> -->
+            <select name="" id="selectFilter" onchange="filtrer()">                
+                <option value="">Selectionner une catégorie</option>
+                <option value="Musique">Musique</option>
+                <option value="Film">Film</option>
+                <option value="Informatique">Informatique</option>
+                <option value="Enfant">Enfant</option>
+            </select>
+    </div>
+    <div id="blocfiltreCateg">  
+    </div>
+    <div id="blocMain">
+
+    </div>
+    <script src="Classes/film.js"></script>
+    <script src="JS/script.js"></script>
+</body>
+</html>

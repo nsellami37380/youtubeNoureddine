@@ -1,0 +1,63 @@
+#blocResearch{
+    text-align: center;
+    margin: 1em;
+
+}
+#research{
+    background-color: rgb(214, 214, 222);
+    width: 50%;
+    padding: 1em;
+    border: solid gray 1px;
+
+
+}
+#btnSearch{
+    height: 100%;
+    width: 5%;
+    padding: 1em;
+}
+#blocMain{
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: space-between;*/
+    margin-right: 2em;
+
+}
+.blocElt{
+    width: 30%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+}
+img{
+    width: 100%;
+}
+.logoImage{
+    width: 10%;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+.maindesc{
+    font-size: small;
+    font-weight: 100;
+    line-height:1em; 
+}
+#blocfiltreCateg{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;    
+    height: 50px;
+    border-top: solid 1px;
+    border-bottom: solid 1px;
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+.filtreCategElt button{
+    border-radius: 50%;
+    height : 80%;
+    margin-right: 1em;
+    padding: 1em;
+    border-style: initial;
+    border: solid 1px;
+    
+}
